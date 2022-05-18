@@ -1,0 +1,164 @@
+{
+    "temps":[
+        {
+            "id":1,
+            "collaborateur":"EGB",
+            "travail":"Développement interface",
+            "date":"2022-05-02",
+            "duree":3.25,
+            "categorie":{
+                "id":1,
+                "titre":"Production"
+            },
+            "projet":{
+                "id":1,
+                "nom": "Application de suivi des temps"
+            }
+        },
+        {
+            "id":2,
+            "collaborateur":"EGB",
+            "travail":"Développement back-office",
+            "date":"2022-05-02",
+            "duree":3.5,
+            "categorie":{
+                "id":1,
+                "titre":"Production"
+            },
+            "projet":{
+                "id":1,
+                "nom": "Application de suivi des temps"
+            }
+        },
+        {
+            "id":3,
+            "collaborateur":"EGB",
+            "travail":"Recherche infos Vue.js",
+            "date":"2022-05-03",
+            "duree":1.5,
+            "categorie":{
+                "id":4,
+                "titre":"R&D"
+            },
+            "projet":{
+                "id":2,
+                "nom": "Application de suivi des chauffeurs"
+            }
+        },
+        {
+            "id":4,
+            "collaborateur":"EGB",
+            "travail":"Recherche infos Vue.js",
+            "date":"2022-05-03",
+            "duree":3,
+            "categorie":{
+                "id":1,
+                "titre":"Production"
+            },
+            "projet":{
+                "id":2,
+                "nom": "Application de suivi des chauffeurs"
+            }
+        },
+        {
+            "id":5,
+            "collaborateur":"EGB",
+            "travail":"Recherche infos Vue.js",
+            "date":"2022-05-03",
+            "duree":2.75,
+            "categorie":{
+                "id":3,
+                "titre":"SAV"
+            },
+            "projet":{
+                "id":5,
+                "nom": "Application cotations commerciales"
+            }
+        }
+
+    ],
+    "categories": [
+        {
+            "id":1,
+            "titre":"Production"
+        },
+        {
+            "id":2,
+            "titre":"Commercial"
+        },
+        {
+            "id":3,
+            "titre":"SAV"
+        },
+        {
+            "id":4,
+            "titre":"R&D"
+        },
+        {
+            "id":5,
+            "titre":"Administratif"
+        },
+        {
+            "id":6,
+            "titre":"Congés/RTT"
+        }
+    ],
+    "projets": [
+        {
+            "id":1,
+            "nom": "Application de suivi des temps",
+            "client":"Interne",
+            "echeance":"2022-06-30",
+            "pointagePossible": true,
+            "budget": 7200
+        },
+        {
+            "id":2,
+            "nom": "Application de suivi des chauffeurs",
+            "client":"Hubérou",
+            "echeance":"2022-07-15",
+            "pointagePossible": true,
+            "budget": 6350
+        },
+        {
+            "id":3,
+            "nom": "Collaboration avec personnels externes",
+            "client":"Interne",
+            "echeance":"2022-10-31",
+            "pointagePossible": true,
+            "budget": 1200
+        },
+        {
+            "id":4,
+            "nom": "Montée en compétences des équipes sur Vue.js",
+            "client":"Interne",
+            "echeance":"2022-05-10",
+            "pointagePossible": false,
+            "budget": 8000
+        },
+        {
+            "id":5,
+            "nom": "Application cotations commerciales",
+            "client":"Cabinet Mac Gouille",
+            "echeance":"2022-08-31",
+            "pointagePossible": true,
+            "budget": 10900
+        },
+        {
+            "id":6,
+            "nom": "Application suivi pédagogique",
+            "client":"Ecole Roultabille",
+            "echeance":"2022-06-30",
+            "pointagePossible": true,
+            "budget": 500
+        },
+        {
+            "id":7,
+            "nom": "Application Gaïa",
+            "client":"Unicoucher",
+            "echeance":"2022-09-30",
+            "pointagePossible": true,
+            "budget": 3500
+        }
+    ]
+}
